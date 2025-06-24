@@ -1,0 +1,70 @@
+/*#4A148C   violet foncé
+#7C4DFF   violet pâle
+#FFEB3B   jaune
+#121212    noir
+#E0E0E0   blanc    */
+
+body {
+    background-color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-violet {
+   background-color: #4A148C;
+}
+
+.navbar-brand {
+    color: #E0E0E0;
+}
+
+.navbar-nav .nav-link {
+  color: #E0E0E0;
+}
+
+.navbar-toggler {
+    background-color: #7C4DFF;
+    border: none !important;
+}
+
+h1, h2, h3, .card-title {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.text-purple{
+    color: #4A148C;
+}
+
+
+.card-body{
+    background-color: #7C4DFF;
+}
+
+.form-container {
+    background-color: #4A148C;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-container .form-control {
+    background-color: white;
+    color: black;
+}
+
+.btn-custom {
+    background-color: #4A148C;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #5a0b9d;
+}
+
+.btn-primary {
+    background-color: #7C4DFF;
+    border: none !important;
+}
+
