@@ -35,7 +35,7 @@
         <section class="hero position-relative text-white">
             <img src="banner/banner_1920.jpg" class="img-fluid w-100" alt="Bannière Nexus Clash">
             <div class="position-absolute w-100 p-3 text-center bottom-0 bottom-md-25 start-50 start-md-50 translate-middle-x translate-md-middle-x">
-                <h1 class="fs-4 text-center fw-bold">Bienvenue sur Nexus Clash, le cœur battant de l'e-sport.</h1>
+                <h1 class="glassmorphism fs-4 text-center fw-bold">Bienvenue sur Nexus Clash, le cœur battant de l'e-sport.</h1>
             </div>
         </section>
     
@@ -52,7 +52,7 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-3 g-5">
                 <div class="col">
                     <div class="card_content card shadow rounded-4 overflow-hidden h-100">
-                        <img src="card/cashprize.png" class="card-img-top img-fluid" alt="...">
+                        <img src="card/cashprize.png" class="card-img-top img-fluid" alt="Image 5 000€ de cashprize">
                         <div class="card-body">
                             <h5 class="text-white text-center fw-semibold py-2 fs-6 fs-md-5">5 000€ de cashprize</h5>
                         </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col">
                     <div class="card_content card shadow rounded-4 overflow-hidden h-100">
-                        <img src="card/jeux.png" class="card-img-top img-fluid" alt="...">
+                        <img src="card/jeux.png" class="card-img-top img-fluid" alt="Image 16 jeux séléctionnés">
                         <div class="card-body">
                             <h5 class="text-white text-center fw-semibold py-2 fs-6 fs-md-5">16 jeux sélectionnés</h5>
                         </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col">
                     <div class="card_content card shadow rounded-4 overflow-hidden h-100">
-                        <img src="card/joueurs.png" class="card-img-top img-fluid" alt="...">
+                        <img src="card/joueurs.png" class="card-img-top img-fluid" alt="Image des joueurs participants">
                         <div class="card-body">
                             <h5 class="text-white text-center fw-semibold py-2 fs-6 fs-md-5">128 joueurs participants</h5>
                         </div>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="col">
                     <div class="card_content card shadow rounded-4 overflow-hidden h-100">
-                        <img src="card/spectateurs.png" class="card-img-top img-fluid" alt="...">
+                        <img src="card/spectateurs.png" class="card-img-top img-fluid" alt="Image 50 000 spectateurs">
                         <div class="card-body">
                             <h5 class="text-white text-center fw-semibold py-2 fs-6 fs-md-5">50 000 spectateurs</h5>
                         </div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="col mx-auto">
                     <div class="card_content card shadow rounded-4 overflow-hidden h-100">
-                        <img src="card/arena_esport.png" class="card-img-top img-fluid" alt="...">
+                        <img src="card/arena_esport.png" class="card-img-top img-fluid" alt="Image 1 salle - 4 arènes">
                         <div class="card-body">
                             <h5 class="text-white text-center fw-semibold py-2 fs-6 fs-md-5">1 salle - 4 arènes</h5>
                         </div>
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <button type="submit" class="btn btn-primary fw-semibold">Participer</button>
+                        <button id="submit-button" type="submit" class="btn btn-primary fw-semibold">Participer</button>
                     </div>
                 </form>
             </div>
@@ -146,6 +146,13 @@
             </div>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('submit-button').addEventListener('click', function (sub) {
+            sub.preventDefault();
+            alert("🎮 Bienvenue dans l'arène !");
+        });
+    </script>
 </body>
 </html>
