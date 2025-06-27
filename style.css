@@ -1,12 +1,16 @@
-/*#4A148C   violet foncé
+/*
+#4A148C   violet foncé
 #7C4DFF   violet pâle
 #FFEB3B   jaune
-#121212    noir
-#E0E0E0   blanc    */
+#121212   noir
+#E0E0E0   blanc   
+
+text-shadow: 0 3px 6px #ffeb3b7c !important;
+effet néon jaune sous le text*/
 
 body {
-    background-color: #E0E0E0;
-    font-family: 'Roboto', sans-serif;
+   background-color: #E0E0E0;
+   font-family: 'Roboto', sans-serif;
 }
 
 .bg-violet {
@@ -14,11 +18,12 @@ body {
 }
 
 .navbar-brand {
-    color: #E0E0E0;
+    color: #E0E0E0 !important;
 }
 
 .navbar-nav .nav-link {
   color: #E0E0E0;
+  text-shadow: 0 3px 6px #ffeb3b7c !important;
 }
 
 .navbar-toggler {
@@ -26,14 +31,29 @@ body {
     border: none !important;
 }
 
-h1, h2, h3, .card-title {
-  font-family: 'Orbitron', sans-serif;
+h1 {
+    font-family: 'Orbitron', sans-serif !important;
 }
 
-.text-purple{
-    color: #4A148C;
+.title_presentation {
+    font-family: 'Orbitron', sans-serif !important;
+    color: #4A148C !important;
+    text-shadow: 0 3px 6px #ffeb3b7c !important;
 }
 
+.title_edition {
+    font-family: 'Orbitron', sans-serif;
+    color: #4A148C !important;
+    text-shadow: 0 3px 6px #ffeb3b7c !important;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.card_content{
+    box-shadow:  0 3px 6px #121212 !important;
+}
 
 .card-body{
     background-color: #7C4DFF;
@@ -41,30 +61,13 @@ h1, h2, h3, .card-title {
 
 .form-container {
     background-color: #4A148C;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
+    color: #E0E0E0 !important;
     max-width: 600px;
-    margin: auto;
-}
-
-.form-container .form-control {
-    background-color: white;
-    color: black;
-}
-
-.btn-custom {
-    background-color: #4A148C;
-    color: white;
-    border: none;
-}
-
-.btn-custom:hover {
-    background-color: #5a0b9d;
 }
 
 .btn-primary {
     background-color: #7C4DFF;
     border: none !important;
 }
+
 
